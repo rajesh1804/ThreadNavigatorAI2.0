@@ -1,3 +1,5 @@
+# NOTE: Legacy orchestrator agent for generic query pipelines (not used in ThreadNavigatorAI 2.0)
+
 import time
 from agents.base_agent import BaseAgent
 from agents.search_agent import SearchAgent

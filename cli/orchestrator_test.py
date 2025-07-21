@@ -1,5 +1,5 @@
 import yaml
-from agents.orchestrator_agent import OrchestratorAgent
+from agents._deprecated.orchestrator_agent import OrchestratorAgent
 import json
 
 with open("config/config.yaml", "r") as f:
