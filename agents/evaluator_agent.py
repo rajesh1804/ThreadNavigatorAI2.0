@@ -1,5 +1,6 @@
 from agents.base_agent import BaseAgent
 from utils.llm_client import chat_completion
+import json
 
 class EvaluatorAgent(BaseAgent):
     def run(self, summary_text, thread_text):
@@ -16,4 +17,11 @@ class EvaluatorAgent(BaseAgent):
             max_tokens=1024
         )
 
-        return response
+        try:
+            parsed = json.loads(response)
+        except json.JSONDecodeError:
+            parsed = {"relevance": {"score": 0, "reason": "Invalid JSON from LLM"},
+                    "factuality": {"score": 0, "reason": "Invalid JSON from LLM"},
+                    "coherence": {"score": 0, "reason": "Invalid JSON from LLM"}}
+
+        return parsed
