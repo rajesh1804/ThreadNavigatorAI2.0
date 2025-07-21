@@ -24,12 +24,29 @@ class FactCheckerAgent(BaseAgent):
                 {"role": "user", "content": f"Claim: {claim}\n\nEvidence:\n{search_result}\n\nClassify and explain your reasoning briefly."}
             ]
 
+            # response = chat_completion(
+            #     messages=messages,
+            #     model=self.config["llm"]["model"],
+            #     temperature=self.config["llm"]["temperature"],
+            #     max_tokens=512
+            # )
+
+            agent_config = self.config.get("agents", {}).get(self.name.lower(), {})
+            llm_config = {
+                "model": agent_config.get("model", self.config["llm"]["model"]),
+                "temperature": agent_config.get("temperature", self.config["llm"]["temperature"]),
+                "max_tokens": agent_config.get("max_tokens", self.config["llm"]["max_tokens"])
+            }
+
             response = chat_completion(
                 messages=messages,
-                model=self.config["llm"]["model"],
-                temperature=self.config["llm"]["temperature"],
-                max_tokens=512
+                model=llm_config["model"],
+                temperature=llm_config["temperature"],
+                max_tokens=llm_config["max_tokens"]
             )
+
+            print(f"Fact Checker Using model: {llm_config['model']} with temperature {llm_config['temperature']} and max tokens {llm_config['max_tokens']}")
+
 
             checked_claims.append({
                 "claim": claim,
