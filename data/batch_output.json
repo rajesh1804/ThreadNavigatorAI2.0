@@ -1,0 +1,3908 @@
+[
+  {
+    "thread_id": "thread_001",
+    "title": "Favorite coding music",
+    "summary": "- OP expressed fondness for using the coding tool Favorite, particularly due to its support for asynchronous tasks.\n- Some users inquired about using Favorite with open-source Language Models (LLMs).\n- A user confirmed using Favorite daily in production.\n- Another user compared Favorite to the tool Remote, but no specific comparative thoughts were shared.\n- The initial poster again affirmed their preference for Favorite, emphasizing its usefulness for asynchronous tasks.",
+    "fact_check": [
+      {
+        "claim": "- OP expressed fondness for using the coding tool Favorite, particularly due to its support for asynchronous tasks.",
+        "judgment": "\ud83d\udd0d Unverifiable\n\nThe provided search results do not directly support the claim that OP (original poster) expressed fondness for using the coding tool \"Favorite,\" particularly due to its support for asynchronous tasks. The search results are mostly discussions about other programming languages, tools, and practices, but there is no clear mention of \"Favorite.\" Without specific evidence mentioning \"Favorite\" and its asynchronous task support, it remains unverifiable."
+      },
+      {
+        "claim": "- Some users inquired about using Favorite with open-source Language Models (LLMs).",
+        "judgment": "\u2705 Likely Correct\n\nReasoning: The search results provide multiple sources that discuss the topic of users inquiring about using Favorite Language Models (LLMs) with open-source LLMs. The first source directly mentions the importance of open-source LLMs and how users might want to use them (You're Missing Out on Open-Source LLMs! - CODE Magazine). The second source discusses favoring LLMs regardless of specific characteristics, except for completely closed source ones like Chat GPT (Favorite LLMs regardless of specific characteristics). Lastly, the third source talks about evaluating human and LLM-generated responses, which suggests that users are indeed engaging with LLMs (Users Favor LLM-Generated Content\u2014Until They Know It's AI - arXiv). Based on this evidence, it is likely correct that some users have inquired about using open-source LLMs."
+      },
+      {
+        "claim": "- A user confirmed using Favorite daily in production.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe provided evidence does not support the claim that a user confirmed using 'Favorite' daily in production. The search results do not contain any information related to user activities or confirmations of daily usage of 'Favorite' in a production environment. To verify this claim, additional context or specific evidence from the user or the platform where 'Favorite' is used would be necessary."
+      },
+      {
+        "claim": "- Another user compared Favorite to the tool Remote, but no specific comparative thoughts were shared.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe search results provided do not contain any information comparing Favorite to the tool Remote. They discuss remote jobs, remote job scams, and a comparison between Microsoft Viva Engage and Teams, but not Favorite and Remote. Therefore, the claim is unverifiable based on the provided evidence."
+      },
+      {
+        "claim": "- The initial poster again affirmed their preference for Favorite, emphasizing its usefulness for asynchronous tasks.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe search results provided do not contain any information directly related to the claim about someone's preference for a specific tool, \"Favorite\", or its usefulness for asynchronous tasks. The search results mainly focus on ICLR 2025 spotlights, IMMERSE events, and a podcast episode about course workload estimators. Therefore, it is not possible to verify or refute the claim with the provided information."
+      }
+    ],
+    "evaluation": "{\n  \"relevance\": {\n    \"score\": 5,\n    \"reason\": \"The summary accurately captures the main ideas of the thread, including the original poster's preference for Favorite, the inquiry about using Favorite with open-source LLMs, and the subsequent dialogue about Favorite's use in production and its comparison to Remote.\"\n  },\n  \"factuality\": {\n    \"score\": 5,\n    \"reason\": \"The summary accurately reflects what was actually said in the thread, with no distortions or misrepresentations of the discussions.\"\n  },\n  \"coherence\": {\n    \"score\": 4,\n    \"reason\": \"While the summary is logically organized and readable, it could benefit from a more concise structure to further improve its coherence, such as grouping the user responses under specific topics or questions.\"\n  }\n}"
+  },
+  {
+    "thread_id": "thread_002",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "1. The original post (OP) expresses confusion about LangChain compared to Scaling and seeks opinions.\n2. User1 prefers LangChain due to its flexibility.\n3. User2 uses LangChain in a production environment daily.\n4. User3 asks if anyone has tried using LangChain with open-source Language Models (LLMs).\n5. User4 mentions they switched from Scaling to LangChain and have been satisfied with the change.\n6. There is a question about using LangChain with open-source LLMs, but no definitive answers were provided in the thread.",
+    "fact_check": [
+      {
+        "claim": "1. The original post (OP) expresses confusion about LangChain compared to Scaling and seeks opinions.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe provided search results do not directly support or refute the claim that the OP expresses confusion about LangChain compared to Scaling and seeks opinions. The search results mention LangChain in different contexts, such as discussions on Reddit, Latent Space appearances, and comparisons to other libraries, but none of them explicitly show that the OP is seeking opinions about LangChain in comparison to Scaling. Therefore, the claim remains unverifiable based on the provided evidence."
+      },
+      {
+        "claim": "2. User1 prefers LangChain due to its flexibility.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe provided search results do not contain any direct statements from User1 expressing a preference for LangChain. Instead, they mostly show issues or errors encountered by other users, GitHub issues, and a post about a user implementing LangChain at their workplace, but without expressing a preference. Without a specific statement from User1 expressing a preference for LangChain, it's not possible to classify the claim as likely correct or incorrect."
+      },
+      {
+        "claim": "3. User2 uses LangChain in a production environment daily.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe provided search results do not provide conclusive evidence to support or refute the claim that User2 uses LangChain in a production environment daily. The search results mention LangChain being used in production environments, but there is no specific mention of User2 using it daily."
+      },
+      {
+        "claim": "4. User3 asks if anyone has tried using LangChain with open-source Language Models (LLMs).",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe provided claim is about whether people have tried using LangChain with open-source Language Models (LLMs). The search results do provide information about LangChain, its implementation, and open-source LLMs, but there's no direct evidence that people have tried using LangChain with open-source LLMs as stated in the claim. The claim remains unverified with the current evidence."
+      },
+      {
+        "claim": "5. User4 mentions they switched from Scaling to LangChain and have been satisfied with the change.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe provided search results do not contain any information that supports or refutes the claim that User4 switched from Scaling to LangChain and was satisfied with the change. While there is evidence that other users have had issues with LangChain, the statement about User4's experience is not mentioned in any of the provided sources. It would be necessary to find a more direct and relevant source, such as a quote or post from User4 themselves, to verify this claim."
+      },
+      {
+        "claim": "6. There is a question about using LangChain with open-source LLMs, but no definitive answers were provided in the thread.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe provided evidence does not contain any thread or discussion that directly addresses the use of LangChain with open-source LLMs and provides definitive answers. Instead, the search results indicate questions about LangChain, its impact, and development, but not about its use with open-source LLMs. Therefore, it is unverifiable to classify the claim as likely correct or incorrect based on the provided evidence."
+      }
+    ],
+    "evaluation": "{\n  \"relevance\": {\n    \"score\": 5,\n    \"reason\": \"The summary accurately captures the main ideas of the thread, including the original question about comparison between LangChain and Scaling, opinions expressed by users, and a question about using LangChain with open-source LLMs.\"\n  },\n  \"factuality\": {\n    \"score\": 4,\n    \"reason\": \"While the summary reflects the opinions and questions expressed in the thread, it does not provide any facts or evidence to support the claims made by the users. However, since the thread consists of personal opinions, the factuality score remains relatively high.\"\n  },\n  \"coherence\": {\n    \"score\": 5,\n    \"reason\": \"The summary is well-structured, readable, and logically organized with clear sentence structure and proper use of punctuation. The summary provides a concise yet comprehensive overview of the main points discussed in the thread.\"\n  }\n}"
+  },
+  {
+    "thread_id": "thread_003",
+    "title": "Python vs Rust for LLMs",
+    "summary": "- The original poster (OP) prefers Python for building Large Language Models (LLMs) due to its flexibility.\n- Several users have had positive experiences using Python for LLMs, particularly with its support for asynchronous programming.\n- One user mentioned a 2x latency improvement when using Python for LLMs.\n- One user expressed a different opinion, stating they believe Python is overhyped.\n- Despite the debate, multiple users attest to the effectiveness of Python for LLMs.\n- No clear consensus was reached about whether Rust could be a better alternative for building LLMs in the thread.",
+    "fact_check": [
+      {
+        "claim": "- The original poster (OP) prefers Python for building Large Language Models (LLMs) due to its flexibility.",
+        "judgment": "\u2705 Likely Correct\n\nThe provided Google search results support the claim that Python is preferred for building Large Language Models (LLMs) due to its flexibility.\n\nThe first result is a research paper on arXiv that mentions Python's flexibility as one of the reasons it aligns well with LLMs' capabilities. The second result is the ICLR 2025 Spotlights, where no direct mention of Python preference is made, but it does not contradict the claim as Python is widely used in machine learning and AI development. The third result is a Medium article that discusses productionizing LLMs, but does not provide a preference for the language used. However, it does mention that large language models are generally transformer models, and transformer models are often built using Python. Therefore, the claim is likely correct based on the evidence provided."
+      },
+      {
+        "claim": "- Several users have had positive experiences using Python for LLMs, particularly with its support for asynchronous programming.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nWhile the search results do provide anecdotal experiences of individuals using different programming languages for Large Language Models (LLMs), they do not specifically mention Python or its support for asynchronous programming. Therefore, it is not possible to definitively classify the claim as correct or incorrect based on the provided evidence. Further research or specific sources regarding Python and its use in asynchronous programming for LLMs would be necessary to verify this claim."
+      },
+      {
+        "claim": "- One user mentioned a 2x latency improvement when using Python for LLMs.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe provided claim is about a user mentioning a 2x latency improvement when using Python for LLMs, but the search results do not contain any direct evidence of this specific claim. The search results do contain references to latency improvements for LLMs, but they are related to specific tools (vLLM) and not Python in general. Therefore, it is not possible to definitively verify or refute the claim based on the provided search results."
+      },
+      {
+        "claim": "- One user expressed a different opinion, stating they believe Python is overhyped.",
+        "judgment": "\u2705 Likely Correct\n\nExplanation:\nThe search results provided include a direct statement from a Reddit user who expressed their belief that Python is overhyped. The Quora and Medium links do not directly support this claim, but they do not contradict it either. Therefore, based on the provided evidence, it is likely correct that one user expressed a different opinion, stating they believe Python is overhyped."
+      },
+      {
+        "claim": "- Despite the debate, multiple users attest to the effectiveness of Python for LLMs.",
+        "judgment": "\u2705 Likely Correct\n\nExplanation: The provided search results consist of multiple academic papers that discuss the use of Language Models (LLMs) in debates, specifically with Python-based AI systems. These papers demonstrate that Python is used in the implementation and development of these AI systems, which suggests that multiple users or developers indeed attest to the effectiveness of Python for LLMs in this context."
+      },
+      {
+        "claim": "- No clear consensus was reached about whether Rust could be a better alternative for building LLMs in the thread.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe provided evidence does not directly support or refute the claim about reaching a consensus on Rust as a better alternative for building Large Language Models (LLMs). The search results include discussions about using Rust in C translation, issues with LLMs, and the application of LLMs to fix Rust compilation errors. However, none of these topics specifically address the question of whether Rust can be a better alternative for building LLMs and whether a consensus was reached on this matter. Therefore, the claim remains unverifiable based on the provided evidence."
+      }
+    ],
+    "evaluation": "{\n  \"relevance\": {\"score\": 5, \"reason\": \"The summary accurately captures the main ideas of the thread, which is the discussion about using Python for building Large Language Models (LLMs) and the experiences of users with Python for this purpose.\"},\n  \"factuality\": {\"score\": 5, \"reason\": \"The summary accurately reflects what was actually said in the thread, providing an accurate representation of the opinions and experiences shared by the users.\"},\n  \"coherence\": {\"score\": 5, \"reason\": \"The summary is well-structured, readable, and logically organized. It provides a clear and concise summary of the thread, making it easy to understand the main points and the different opinions expressed.\"}\n}"
+  },
+  {
+    "thread_id": "thread_004",
+    "title": "Python vs Rust for LLMs",
+    "summary": "1. Python is used extensively in production by the OP and other users.\n2. Python's support for asynchronous operations was highlighted as a positive aspect.\n3. A user reported a 2x latency improvement when using Python for their Large Language Models (LLMs).\n4. Users generally find Python more flexible compared to other languages.\n5. No direct comparison was made between Python and Rust in terms of scaling, and it was unclear if Rust was discussed as an alternative.\n6. Personal preference for Python was expressed due to its adaptability.",
+    "fact_check": [
+      {
+        "claim": "1. Python is used extensively in production by the OP and other users.",
+        "judgment": "\u2705 Likely Correct\n\nReasoning: The provided search results suggest that Python is widely used in various industries and applications, including production, AI and machine learning, data analytics, data visualization, programming applications, web development, and information security. While the specific mention of Python being used in the production by the OP (original poster) or other users is not directly mentioned in the search results, the evidence shows that it is one of the most commonly used programming languages in the world, and it is used in many industries, suggesting that it is not only used in academic settings or personal projects, but also in professional and production environments. Therefore, it is likely that Python is used extensively in production by the OP and other users."
+      },
+      {
+        "claim": "2. Python's support for asynchronous operations was highlighted as a positive aspect.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nWhile the evidence provided does discuss asynchronous programming in Python, it does not directly highlight Python's support for asynchronous operations as a positive aspect. The search results demonstrate that Python supports asynchronous programming, but they do not explicitly state it as a positive aspect, which is the claim in question. To confirm the claim, one would need a reliable source that directly states Python's support for asynchronous operations as a positive aspect."
+      },
+      {
+        "claim": "3. A user reported a 2x latency improvement when using Python for their Large Language Models (LLMs).",
+        "judgment": "\u2705 Likely Correct\n\nExplanation: The claim is supported by the evidence provided. The evidence includes several research papers and articles that discuss methods for improving the latency of Large Language Models (LLMs) in Python. One of the articles even mentions achieving up to 2x higher throughput, which implies a potential reduction in latency. Additionally, Amazon SageMaker's new inference optimization toolkit claims to deliver up to 2x higher throughput, which could translate to a reduction in latency for generative AI models, albeit not specifically for Python. While the user-reported latency improvement is not directly mentioned in the evidence, the overall trend and the improvements reported in the articles and tools suggest that it is likely that a user may experience a 2x latency improvement when using Python for their LLMs."
+      },
+      {
+        "claim": "4. Users generally find Python more flexible compared to other languages.",
+        "judgment": "\u2705 Likely Correct\n\nReasoning: The provided search results show articles discussing the advantages of Python compared to other programming languages, with flexibility being one of the key points mentioned in two of the sources. The first source specifically states that Python is \"among the most in-demand programming languages\" and points out its flexibility as one of the reasons for its popularity. The second source, a Reddit discussion, also highlights flexibility as a distinguishing feature of Python. The third source discusses Python's design for ease of understanding and reads like English, which may contribute to its perceived flexibility. Therefore, it is likely correct that users generally find Python more flexible compared to other languages."
+      },
+      {
+        "claim": "5. No direct comparison was made between Python and Rust in terms of scaling, and it was unclear if Rust was discussed as an alternative.",
+        "judgment": "\u2705 Likely Correct\n\nThe search results suggest that while Python and Rust have been compared in terms of their performance, speed, and use cases (with Rust generally being superior in the aspects of speed and safety-critical tasks), there is no direct comparison made specifically on the topic of scaling. Furthermore, the search results do not indicate that Rust was discussed as an alternative to Python in the context of scaling."
+      },
+      {
+        "claim": "6. Personal preference for Python was expressed due to its adaptability.",
+        "judgment": "\u2705 Likely Correct\n\nThe claim \"6. Personal preference for Python was expressed due to its adaptability\" can be considered likely correct based on the provided evidence. Although the exact words \"adaptability\" are not found in the search results, the evidence points towards the adaptability of Python being a factor in personal preference.\n\nFor instance, the Quora answer mentions that Python allows for writing more with less code, implying ease of use and adaptability, which could contribute to a personal preference for the language. However, it's important to note that this is an inference based on the available information, and a definitive confirmation may require additional sources or specific statements addressing adaptability as a factor in preference."
+      }
+    ],
+    "evaluation": "{\n  \"relevance\": {\"score\": 5, \"reason\": \"The summary accurately captures the main ideas of the thread, which discuss Python's use in production, its asynchronous support, one user's reported latency improvement with Python for Large Language Models, and the general preference for Python's flexibility.\"},\n  \"factuality\": {\"score\": 4, \"reason\": \"The summary correctly reflects what was actually said in the thread, but it may not be completely accurate regarding the specific context of the Large Language Models (LLMs) as it was not explicitly stated in the thread. However, the summary does accurately reflect the user's reported 2x latency improvement.\"},\n  \"coherence\": {\"score\": 4, \"reason\": \"The summary is well-structured and logically organized, but it could be improved by providing a clearer distinction between the users' opinions and the facts presented, such as the latency improvement. Additionally, it could have been more coherent to mention that no direct comparison was made between Python and Rust in terms of scaling.\"}\n}"
+  },
+  {
+    "thread_id": "thread_005",
+    "title": "Scaling RAG pipelines",
+    "summary": "1. OP expressed a viewpoint that scaling in machine learning pipelines may be overhyped.\n2. User1 disagreed, stating that they prefer scaling due to its flexibility.\n3. User2 shared a positive experience, having switched from fine-tuning to scaling and finding it beneficial.\n4. User3 also expressed a similar view as OP, considering scaling to be overhyped.\n5. User4 used scaling in production daily, indicating its practicality.\n6. User5 reported a 2x latency improvement after implementing scaling in their machine learning pipeline. Some users seem to find scaling beneficial, while others admit to being skeptical about its hype.",
+    "fact_check": [
+      {
+        "claim": "1. OP expressed a viewpoint that scaling in machine learning pipelines may be overhyped.",
+        "judgment": "\ud83d\udd0d Classification: \ud83e\udd37 Unverifiable\n\nExplanation: While the search results do provide useful information about the importance of scaling in machine learning and the fact that Random Forest is less sensitive to scaling compared to other algorithms, they do not directly support or contradict the claim that scaling in machine learning pipelines is overhyped. The claim is more of an opinion or interpretation, and the evidence provided does not allow us to conclusively confirm or deny it. An opinion poll or a more specific discussion about the hype around scaling in machine learning pipelines would be more appropriate to verify this claim."
+      },
+      {
+        "claim": "2. User1 disagreed, stating that they prefer scaling due to its flexibility.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe provided search results do not contain any direct evidence to support or refute the claim that \"User1 disagreed, stating that they prefer scaling due to its flexibility.\" The search results only mention a \"USER1\" variable in the context of machine learning, image generation, and finger mark prediction, but they do not provide any dialogue or statement from User1 about their preference for scaling or flexibility. Therefore, it's not possible to classify the claim as either likely correct or likely incorrect based on this evidence."
+      },
+      {
+        "claim": "3. User2 shared a positive experience, having switched from fine-tuning to scaling and finding it beneficial.",
+        "judgment": "\u2705 Likely Correct\n\nThe evidence provided from the search results suggests that fine-tuning Language Models (LLMs) has been a common practice in the field, as indicated by the Reddit post and the Microsoft article. The Meta AI blog post also discusses the question of when to fine-tune LLMs, further supporting the idea that it is a common practice. The user's experience of switching from fine-tuning to scaling and finding it beneficial is not explicitly stated in the search results, but the context implies that the user may have benefited from fine-tuning before making the switch. Therefore, it is likely that the user had a positive experience with fine-tuning, as suggested in the claim."
+      },
+      {
+        "claim": "4. User3 also expressed a similar view as OP, considering scaling to be overhyped.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe provided search results do not contain any information directly linking \"User3\" with the claim that they consider scaling to be overhyped. While some sources indicate that other users expressed the view that AI scaling is overhyped, there is no evidence to support that User3 specifically held this view. Therefore, the claim remains unverifiable based on the provided search results."
+      },
+      {
+        "claim": "5. User4 used scaling in production daily, indicating its practicality.",
+        "judgment": "\u1e47\u043d\u0438\u0446 Classification: \ud83e\udd37 Unverifiable\n\nExplanation: The provided evidence does not support or refute the claim about User4 using scaling in production daily. The evidence consists of articles about Likert scales, scale development, and user engagement scales, but none of them provide information about User4 or their production work. Therefore, it is unverifiable if User4 used scaling in production daily based on the provided evidence."
+      },
+      {
+        "claim": "6. User5 reported a 2x latency improvement after implementing scaling in their machine learning pipeline. Some users seem to find scaling beneficial, while others admit to being skeptical about its hype.",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe claim is about a specific user's experience with latency improvement after implementing scaling in their machine learning pipeline, but the provided search results do not contain any information that can verify or refute this claim. The search results discuss topics like AI hype, traditional search, the Fourth Industrial Revolution, and the benefits of digital service excellence, but there is no evidence to support or contradict the latency improvement claim made in the question. To verify this claim, one would need to find information specifically about a user named User5 and their machine learning pipeline."
+      }
+    ],
+    "evaluation": "{\n  \"relevance\": {\"score\": 5, \"reason\": \"The summary accurately captures the main ideas of the thread, which revolve around the pros and cons of using scaling in machine learning pipelines.\"},\n  \"factuality\": {\"score\": 5, \"reason\": \"The summary reflects what was actually said in the thread, accurately representing the opinions and experiences of the users.\"},\n  \"coherence\": {\"score\": 4, \"reason\": \"The summary is well-structured, but it could benefit from a slightly more logical organization (e.g., grouping similar statements together or presenting the opinions in a more chronological order). However, the summary remains readable and easy to understand.\"}\n}"
+  },
+  {
+    "thread_id": "thread_006",
+    "title": "Prompt engineering strategies",
+    "summary": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+    "fact_check": [
+      {
+        "claim": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+        "judgment": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
+      }
+    ],
+    "evaluation": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
+  },
+  {
+    "thread_id": "thread_007",
+    "title": "Python vs Rust for LLMs",
+    "summary": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+    "fact_check": [
+      {
+        "claim": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+        "judgment": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
+      }
+    ],
+    "evaluation": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753082220000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
+  },
+  {
+    "thread_id": "thread_008",
+    "title": "Fine-tuning vs adapters",
+    "summary": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+    "fact_check": [
+      {
+        "claim": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+        "judgment": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
+      }
+    ],
+    "evaluation": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
+  },
+  {
+    "thread_id": "thread_009",
+    "title": "Fine-tuning vs adapters",
+    "summary": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+    "fact_check": [
+      {
+        "claim": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+        "judgment": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
+      }
+    ],
+    "evaluation": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
+  },
+  {
+    "thread_id": "thread_010",
+    "title": "Python vs Rust for LLMs",
+    "summary": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+    "fact_check": [
+      {
+        "claim": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+        "judgment": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753082280000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
+      }
+    ],
+    "evaluation": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753082280000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
+  },
+  {
+    "thread_id": "thread_011",
+    "title": "Best AI tools in 2025",
+    "summary": "I personally prefer Best because it's more flexible.\nInteresting take \u2014 I use Best in prod daily.\nBest was great for us, especially with async support.\nI personally prefer Best because it's more flexible.\nWe switched from Switching to Best and never looked back.",
+    "fact_check": [
+      {
+        "claim": "I personally prefer Best because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Best in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Best was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Best because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Switching to Best and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_012",
+    "title": "Fine-tuning vs adapters",
+    "summary": "Fine-tuning was great for us, especially with async support.\nI personally prefer Fine-tuning because it's more flexible.\nI personally prefer Fine-tuning because it's more flexible.\nHonestly, I think Fine-tuning is overhyped.\nI personally prefer Fine-tuning because it's more flexible.",
+    "fact_check": [
+      {
+        "claim": "Fine-tuning was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Fine-tuning because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Fine-tuning because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Fine-tuning is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Fine-tuning because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_013",
+    "title": "Prompt engineering strategies",
+    "summary": "Not sure how Prompt compares to Best, thoughts?\nAnyone tried using Prompt with open source LLMs?\nWe saw a 2x latency improvement using Prompt.\nInteresting take \u2014 I use Prompt in prod daily.\nAnyone tried using Prompt with open source LLMs?",
+    "fact_check": [
+      {
+        "claim": "Not sure how Prompt compares to Best, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Prompt with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Prompt.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Prompt in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Prompt with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_014",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "I personally prefer LangChain because it's more flexible.\nAnyone tried using LangChain with open source LLMs?\nInteresting take \u2014 I use LangChain in prod daily.\nAnyone tried using LangChain with open source LLMs?\nHonestly, I think LangChain is overhyped.",
+    "fact_check": [
+      {
+        "claim": "I personally prefer LangChain because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using LangChain with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use LangChain in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using LangChain with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think LangChain is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_015",
+    "title": "Fine-tuning vs adapters",
+    "summary": "Anyone tried using Fine-tuning with open source LLMs?\nWe switched from Prompt to Fine-tuning and never looked back.\nAnyone tried using Fine-tuning with open source LLMs?\nHonestly, I think Fine-tuning is overhyped.\nI personally prefer Fine-tuning because it's more flexible.",
+    "fact_check": [
+      {
+        "claim": "Anyone tried using Fine-tuning with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Prompt to Fine-tuning and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Fine-tuning with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Fine-tuning is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Fine-tuning because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_016",
+    "title": "Favorite coding music",
+    "summary": "Honestly, I think Favorite is overhyped.\nI personally prefer Favorite because it's more flexible.\nI personally prefer Favorite because it's more flexible.\nFavorite was great for us, especially with async support.\nInteresting take \u2014 I use Favorite in prod daily.",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Favorite is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Favorite because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Favorite because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Favorite was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Favorite in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_017",
+    "title": "Fine-tuning vs adapters",
+    "summary": "Fine-tuning was great for us, especially with async support.\nAnyone tried using Fine-tuning with open source LLMs?\nFine-tuning was great for us, especially with async support.\nAnyone tried using Fine-tuning with open source LLMs?\nI personally prefer Fine-tuning because it's more flexible.",
+    "fact_check": [
+      {
+        "claim": "Fine-tuning was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Fine-tuning with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Fine-tuning was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Fine-tuning with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Fine-tuning because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_018",
+    "title": "Scaling RAG pipelines",
+    "summary": "I personally prefer Scaling because it's more flexible.\nInteresting take \u2014 I use Scaling in prod daily.\nInteresting take \u2014 I use Scaling in prod daily.\nScaling was great for us, especially with async support.\nNot sure how Scaling compares to Prompt, thoughts?",
+    "fact_check": [
+      {
+        "claim": "I personally prefer Scaling because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Scaling was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Scaling compares to Prompt, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_019",
+    "title": "Best AI tools in 2025",
+    "summary": "We switched from Fine-tuning to Best and never looked back.\nAnyone tried using Best with open source LLMs?\nHonestly, I think Best is overhyped.\nNot sure how Best compares to Fine-tuning, thoughts?\nNot sure how Best compares to Fine-tuning, thoughts?",
+    "fact_check": [
+      {
+        "claim": "We switched from Fine-tuning to Best and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Best with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Best is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Best compares to Fine-tuning, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Best compares to Fine-tuning, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_020",
+    "title": "Switching from iPhone to Android",
+    "summary": "We switched from LangChain to Switching and never looked back.\nSwitching was great for us, especially with async support.\nNot sure how Switching compares to LangChain, thoughts?\nHonestly, I think Switching is overhyped.\nWe saw a 2x latency improvement using Switching.",
+    "fact_check": [
+      {
+        "claim": "We switched from LangChain to Switching and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Switching was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Switching compares to LangChain, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Switching is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Switching.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_021",
+    "title": "Python vs Rust for LLMs",
+    "summary": "Interesting take \u2014 I use Python in prod daily.\nHonestly, I think Python is overhyped.\nI personally prefer Python because it's more flexible.\nNot sure how Python compares to Switching, thoughts?\nAnyone tried using Python with open source LLMs?",
+    "fact_check": [
+      {
+        "claim": "Interesting take \u2014 I use Python in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Python is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Python because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Python compares to Switching, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_022",
+    "title": "Scaling RAG pipelines",
+    "summary": "Anyone tried using Scaling with open source LLMs?\nHonestly, I think Scaling is overhyped.\nNot sure how Scaling compares to Favorite, thoughts?\nI personally prefer Scaling because it's more flexible.\nScaling was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "Anyone tried using Scaling with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Scaling is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Scaling compares to Favorite, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Scaling because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Scaling was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_023",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "We saw a 2x latency improvement using LangChain.\nNot sure how LangChain compares to Scaling, thoughts?\nI personally prefer LangChain because it's more flexible.\nLangChain was great for us, especially with async support.\nLangChain was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using LangChain.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how LangChain compares to Scaling, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer LangChain because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "LangChain was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "LangChain was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_024",
+    "title": "Best AI tools in 2025",
+    "summary": "Best was great for us, especially with async support.\nNot sure how Best compares to Fine-tuning, thoughts?\nWe saw a 2x latency improvement using Best.\nWe saw a 2x latency improvement using Best.\nBest was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "Best was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Best compares to Fine-tuning, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Best.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Best.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Best was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_025",
+    "title": "Best AI tools in 2025",
+    "summary": "I personally prefer Best because it's more flexible.\nI personally prefer Best because it's more flexible.\nHonestly, I think Best is overhyped.\nHonestly, I think Best is overhyped.\nInteresting take \u2014 I use Best in prod daily.",
+    "fact_check": [
+      {
+        "claim": "I personally prefer Best because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Best because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Best is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Best is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Best in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_026",
+    "title": "Scaling RAG pipelines",
+    "summary": "Scaling was great for us, especially with async support.\nI personally prefer Scaling because it's more flexible.\nWe switched from Fine-tuning to Scaling and never looked back.\nHonestly, I think Scaling is overhyped.\nI personally prefer Scaling because it's more flexible.",
+    "fact_check": [
+      {
+        "claim": "Scaling was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Scaling because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Fine-tuning to Scaling and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Scaling is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Scaling because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_027",
+    "title": "Fine-tuning vs adapters",
+    "summary": "Interesting take \u2014 I use Fine-tuning in prod daily.\nInteresting take \u2014 I use Fine-tuning in prod daily.\nNot sure how Fine-tuning compares to LangChain, thoughts?\nAnyone tried using Fine-tuning with open source LLMs?\nHonestly, I think Fine-tuning is overhyped.",
+    "fact_check": [
+      {
+        "claim": "Interesting take \u2014 I use Fine-tuning in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Fine-tuning in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Fine-tuning compares to LangChain, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Fine-tuning with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Fine-tuning is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_028",
+    "title": "Prompt engineering strategies",
+    "summary": "Interesting take \u2014 I use Prompt in prod daily.\nNot sure how Prompt compares to Scaling, thoughts?\nHonestly, I think Prompt is overhyped.\nWe saw a 2x latency improvement using Prompt.\nInteresting take \u2014 I use Prompt in prod daily.",
+    "fact_check": [
+      {
+        "claim": "Interesting take \u2014 I use Prompt in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Prompt compares to Scaling, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Prompt is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Prompt.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Prompt in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_029",
+    "title": "Python vs Rust for LLMs",
+    "summary": "I personally prefer Python because it's more flexible.\nHonestly, I think Python is overhyped.\nNot sure how Python compares to LangChain, thoughts?\nPython was great for us, especially with async support.\nInteresting take \u2014 I use Python in prod daily.",
+    "fact_check": [
+      {
+        "claim": "I personally prefer Python because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Python is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Python compares to LangChain, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Python was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Python in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_030",
+    "title": "Scaling RAG pipelines",
+    "summary": "We switched from Favorite to Scaling and never looked back.\nInteresting take \u2014 I use Scaling in prod daily.\nWe switched from Favorite to Scaling and never looked back.\nWe switched from Favorite to Scaling and never looked back.\nInteresting take \u2014 I use Scaling in prod daily.",
+    "fact_check": [
+      {
+        "claim": "We switched from Favorite to Scaling and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Favorite to Scaling and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Favorite to Scaling and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_031",
+    "title": "Prompt engineering strategies",
+    "summary": "I personally prefer Prompt because it's more flexible.\nWe switched from Favorite to Prompt and never looked back.\nNot sure how Prompt compares to Favorite, thoughts?\nI personally prefer Prompt because it's more flexible.\nNot sure how Prompt compares to Favorite, thoughts?",
+    "fact_check": [
+      {
+        "claim": "I personally prefer Prompt because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Favorite to Prompt and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Prompt compares to Favorite, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Prompt because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Prompt compares to Favorite, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_032",
+    "title": "Fine-tuning vs adapters",
+    "summary": "We switched from Switching to Fine-tuning and never looked back.\nInteresting take \u2014 I use Fine-tuning in prod daily.\nWe saw a 2x latency improvement using Fine-tuning.\nInteresting take \u2014 I use Fine-tuning in prod daily.\nFine-tuning was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "We switched from Switching to Fine-tuning and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Fine-tuning in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Fine-tuning.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Fine-tuning in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Fine-tuning was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_033",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "Not sure how LangChain compares to Scaling, thoughts?\nHonestly, I think LangChain is overhyped.\nI personally prefer LangChain because it's more flexible.\nInteresting take \u2014 I use LangChain in prod daily.\nLangChain was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "Not sure how LangChain compares to Scaling, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think LangChain is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer LangChain because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use LangChain in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "LangChain was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_034",
+    "title": "Scaling RAG pipelines",
+    "summary": "We saw a 2x latency improvement using Scaling.\nWe saw a 2x latency improvement using Scaling.\nScaling was great for us, especially with async support.\nWe switched from Fine-tuning to Scaling and never looked back.\nWe saw a 2x latency improvement using Scaling.",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using Scaling.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Scaling.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Scaling was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Fine-tuning to Scaling and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Scaling.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_035",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "Honestly, I think LangChain is overhyped.\nInteresting take \u2014 I use LangChain in prod daily.\nInteresting take \u2014 I use LangChain in prod daily.\nWe switched from Remote to LangChain and never looked back.\nNot sure how LangChain compares to Remote, thoughts?",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think LangChain is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use LangChain in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use LangChain in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Remote to LangChain and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how LangChain compares to Remote, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_036",
+    "title": "Scaling RAG pipelines",
+    "summary": "Not sure how Scaling compares to Prompt, thoughts?\nScaling was great for us, especially with async support.\nWe switched from Prompt to Scaling and never looked back.\nWe switched from Prompt to Scaling and never looked back.\nInteresting take \u2014 I use Scaling in prod daily.",
+    "fact_check": [
+      {
+        "claim": "Not sure how Scaling compares to Prompt, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Scaling was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Prompt to Scaling and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Prompt to Scaling and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_037",
+    "title": "Prompt engineering strategies",
+    "summary": "Prompt was great for us, especially with async support.\nI personally prefer Prompt because it's more flexible.\nI personally prefer Prompt because it's more flexible.\nNot sure how Prompt compares to Python, thoughts?\nNot sure how Prompt compares to Python, thoughts?",
+    "fact_check": [
+      {
+        "claim": "Prompt was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Prompt because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Prompt because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Prompt compares to Python, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Prompt compares to Python, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_038",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "LangChain was great for us, especially with async support.\nI personally prefer LangChain because it's more flexible.\nHonestly, I think LangChain is overhyped.\nWe switched from Scaling to LangChain and never looked back.\nWe switched from Scaling to LangChain and never looked back.",
+    "fact_check": [
+      {
+        "claim": "LangChain was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer LangChain because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think LangChain is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Scaling to LangChain and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Scaling to LangChain and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_039",
+    "title": "Scaling RAG pipelines",
+    "summary": "Interesting take \u2014 I use Scaling in prod daily.\nNot sure how Scaling compares to LangChain, thoughts?\nScaling was great for us, especially with async support.\nInteresting take \u2014 I use Scaling in prod daily.\nInteresting take \u2014 I use Scaling in prod daily.",
+    "fact_check": [
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Scaling compares to LangChain, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Scaling was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_040",
+    "title": "Switching from iPhone to Android",
+    "summary": "Not sure how Switching compares to Favorite, thoughts?\nWe switched from Favorite to Switching and never looked back.\nSwitching was great for us, especially with async support.\nHonestly, I think Switching is overhyped.\nWe saw a 2x latency improvement using Switching.",
+    "fact_check": [
+      {
+        "claim": "Not sure how Switching compares to Favorite, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Favorite to Switching and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Switching was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Switching is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Switching.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_041",
+    "title": "Remote ML engineering tips",
+    "summary": "Not sure how Remote compares to Best, thoughts?\nAnyone tried using Remote with open source LLMs?\nInteresting take \u2014 I use Remote in prod daily.\nNot sure how Remote compares to Best, thoughts?\nHonestly, I think Remote is overhyped.",
+    "fact_check": [
+      {
+        "claim": "Not sure how Remote compares to Best, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Remote with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Remote in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Remote compares to Best, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Remote is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_042",
+    "title": "Favorite coding music",
+    "summary": "Honestly, I think Favorite is overhyped.\nNot sure how Favorite compares to Prompt, thoughts?\nWe switched from Prompt to Favorite and never looked back.\nNot sure how Favorite compares to Prompt, thoughts?\nNot sure how Favorite compares to Prompt, thoughts?",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Favorite is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Favorite compares to Prompt, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Prompt to Favorite and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Favorite compares to Prompt, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Favorite compares to Prompt, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_043",
+    "title": "Python vs Rust for LLMs",
+    "summary": "We saw a 2x latency improvement using Python.\nWe switched from Remote to Python and never looked back.\nInteresting take \u2014 I use Python in prod daily.\nI personally prefer Python because it's more flexible.\nWe saw a 2x latency improvement using Python.",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using Python.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Remote to Python and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Python in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Python because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Python.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_044",
+    "title": "Python vs Rust for LLMs",
+    "summary": "Anyone tried using Python with open source LLMs?\nHonestly, I think Python is overhyped.\nI personally prefer Python because it's more flexible.\nWe switched from Fine-tuning to Python and never looked back.\nWe switched from Fine-tuning to Python and never looked back.",
+    "fact_check": [
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Python is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Python because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Fine-tuning to Python and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Fine-tuning to Python and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_045",
+    "title": "Favorite coding music",
+    "summary": "Interesting take \u2014 I use Favorite in prod daily.\nNot sure how Favorite compares to Python, thoughts?\nInteresting take \u2014 I use Favorite in prod daily.\nFavorite was great for us, especially with async support.\nInteresting take \u2014 I use Favorite in prod daily.",
+    "fact_check": [
+      {
+        "claim": "Interesting take \u2014 I use Favorite in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Favorite compares to Python, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Favorite in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Favorite was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Favorite in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_046",
+    "title": "Best AI tools in 2025",
+    "summary": "Not sure how Best compares to Fine-tuning, thoughts?\nHonestly, I think Best is overhyped.\nWe saw a 2x latency improvement using Best.\nBest was great for us, especially with async support.\nWe switched from Fine-tuning to Best and never looked back.",
+    "fact_check": [
+      {
+        "claim": "Not sure how Best compares to Fine-tuning, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Best is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Best.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Best was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Fine-tuning to Best and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_047",
+    "title": "Python vs Rust for LLMs",
+    "summary": "Python was great for us, especially with async support.\nPython was great for us, especially with async support.\nNot sure how Python compares to Scaling, thoughts?\nPython was great for us, especially with async support.\nInteresting take \u2014 I use Python in prod daily.",
+    "fact_check": [
+      {
+        "claim": "Python was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Python was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Python compares to Scaling, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Python was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Python in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_048",
+    "title": "Switching from iPhone to Android",
+    "summary": "Interesting take \u2014 I use Switching in prod daily.\nInteresting take \u2014 I use Switching in prod daily.\nWe switched from Fine-tuning to Switching and never looked back.\nHonestly, I think Switching is overhyped.\nWe saw a 2x latency improvement using Switching.",
+    "fact_check": [
+      {
+        "claim": "Interesting take \u2014 I use Switching in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Switching in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Fine-tuning to Switching and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Switching is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Switching.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_049",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "Anyone tried using LangChain with open source LLMs?\nWe switched from Python to LangChain and never looked back.\nAnyone tried using LangChain with open source LLMs?\nI personally prefer LangChain because it's more flexible.\nWe switched from Python to LangChain and never looked back.",
+    "fact_check": [
+      {
+        "claim": "Anyone tried using LangChain with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Python to LangChain and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using LangChain with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer LangChain because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Python to LangChain and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_050",
+    "title": "Python vs Rust for LLMs",
+    "summary": "Anyone tried using Python with open source LLMs?\nAnyone tried using Python with open source LLMs?\nWe saw a 2x latency improvement using Python.\nHonestly, I think Python is overhyped.\nAnyone tried using Python with open source LLMs?",
+    "fact_check": [
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Python.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Python is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_051",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "We saw a 2x latency improvement using LangChain.\nAnyone tried using LangChain with open source LLMs?\nHonestly, I think LangChain is overhyped.\nWe saw a 2x latency improvement using LangChain.\nNot sure how LangChain compares to Remote, thoughts?",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using LangChain.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using LangChain with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think LangChain is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using LangChain.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how LangChain compares to Remote, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_052",
+    "title": "Python vs Rust for LLMs",
+    "summary": "Python was great for us, especially with async support.\nNot sure how Python compares to Scaling, thoughts?\nAnyone tried using Python with open source LLMs?\nInteresting take \u2014 I use Python in prod daily.\nPython was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "Python was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Python compares to Scaling, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Python in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Python was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_053",
+    "title": "Prompt engineering strategies",
+    "summary": "We saw a 2x latency improvement using Prompt.\nWe switched from Favorite to Prompt and never looked back.\nAnyone tried using Prompt with open source LLMs?\nHonestly, I think Prompt is overhyped.\nI personally prefer Prompt because it's more flexible.",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using Prompt.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Favorite to Prompt and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Prompt with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Prompt is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Prompt because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_054",
+    "title": "Prompt engineering strategies",
+    "summary": "We saw a 2x latency improvement using Prompt.\nWe switched from Fine-tuning to Prompt and never looked back.\nInteresting take \u2014 I use Prompt in prod daily.\nInteresting take \u2014 I use Prompt in prod daily.\nI personally prefer Prompt because it's more flexible.",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using Prompt.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Fine-tuning to Prompt and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Prompt in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Prompt in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Prompt because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_055",
+    "title": "Python vs Rust for LLMs",
+    "summary": "Not sure how Python compares to Remote, thoughts?\nHonestly, I think Python is overhyped.\nAnyone tried using Python with open source LLMs?\nWe saw a 2x latency improvement using Python.\nAnyone tried using Python with open source LLMs?",
+    "fact_check": [
+      {
+        "claim": "Not sure how Python compares to Remote, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Python is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Python.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_056",
+    "title": "Remote ML engineering tips",
+    "summary": "We saw a 2x latency improvement using Remote.\nHonestly, I think Remote is overhyped.\nWe switched from LangChain to Remote and never looked back.\nInteresting take \u2014 I use Remote in prod daily.\nHonestly, I think Remote is overhyped.",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using Remote.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Remote is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from LangChain to Remote and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Remote in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Remote is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_057",
+    "title": "Remote ML engineering tips",
+    "summary": "Remote was great for us, especially with async support.\nWe switched from Fine-tuning to Remote and never looked back.\nNot sure how Remote compares to Fine-tuning, thoughts?\nRemote was great for us, especially with async support.\nWe saw a 2x latency improvement using Remote.",
+    "fact_check": [
+      {
+        "claim": "Remote was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Fine-tuning to Remote and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Remote compares to Fine-tuning, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Remote was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Remote.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_058",
+    "title": "Scaling RAG pipelines",
+    "summary": "Interesting take \u2014 I use Scaling in prod daily.\nWe saw a 2x latency improvement using Scaling.\nInteresting take \u2014 I use Scaling in prod daily.\nWe saw a 2x latency improvement using Scaling.\nScaling was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Scaling.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Scaling.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Scaling was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_059",
+    "title": "Scaling RAG pipelines",
+    "summary": "Honestly, I think Scaling is overhyped.\nWe saw a 2x latency improvement using Scaling.\nI personally prefer Scaling because it's more flexible.\nI personally prefer Scaling because it's more flexible.\nWe saw a 2x latency improvement using Scaling.",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Scaling is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Scaling.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Scaling because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Scaling because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Scaling.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_060",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "Not sure how LangChain compares to Scaling, thoughts?\nWe switched from Scaling to LangChain and never looked back.\nWe switched from Scaling to LangChain and never looked back.\nWe saw a 2x latency improvement using LangChain.\nWe switched from Scaling to LangChain and never looked back.",
+    "fact_check": [
+      {
+        "claim": "Not sure how LangChain compares to Scaling, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Scaling to LangChain and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Scaling to LangChain and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using LangChain.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Scaling to LangChain and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_061",
+    "title": "Favorite coding music",
+    "summary": "Honestly, I think Favorite is overhyped.\nFavorite was great for us, especially with async support.\nHonestly, I think Favorite is overhyped.\nHonestly, I think Favorite is overhyped.\nInteresting take \u2014 I use Favorite in prod daily.",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Favorite is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Favorite was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Favorite is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Favorite is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Favorite in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_062",
+    "title": "Python vs Rust for LLMs",
+    "summary": "We saw a 2x latency improvement using Python.\nWe switched from Favorite to Python and never looked back.\nI personally prefer Python because it's more flexible.\nAnyone tried using Python with open source LLMs?\nNot sure how Python compares to Favorite, thoughts?",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using Python.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Favorite to Python and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Python because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Python compares to Favorite, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_063",
+    "title": "Python vs Rust for LLMs",
+    "summary": "I personally prefer Python because it's more flexible.\nWe saw a 2x latency improvement using Python.\nPython was great for us, especially with async support.\nNot sure how Python compares to Switching, thoughts?\nPython was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "I personally prefer Python because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Python.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Python was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Python compares to Switching, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Python was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_064",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "Interesting take \u2014 I use LangChain in prod daily.\nWe switched from Favorite to LangChain and never looked back.\nI personally prefer LangChain because it's more flexible.\nLangChain was great for us, especially with async support.\nWe switched from Favorite to LangChain and never looked back.",
+    "fact_check": [
+      {
+        "claim": "Interesting take \u2014 I use LangChain in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Favorite to LangChain and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer LangChain because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "LangChain was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Favorite to LangChain and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_065",
+    "title": "Scaling RAG pipelines",
+    "summary": "Not sure how Scaling compares to Prompt, thoughts?\nHonestly, I think Scaling is overhyped.\nI personally prefer Scaling because it's more flexible.\nHonestly, I think Scaling is overhyped.\nWe switched from Prompt to Scaling and never looked back.",
+    "fact_check": [
+      {
+        "claim": "Not sure how Scaling compares to Prompt, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Scaling is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Scaling because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Scaling is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Prompt to Scaling and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_066",
+    "title": "Fine-tuning vs adapters",
+    "summary": "I personally prefer Fine-tuning because it's more flexible.\nFine-tuning was great for us, especially with async support.\nInteresting take \u2014 I use Fine-tuning in prod daily.\nNot sure how Fine-tuning compares to Best, thoughts?\nFine-tuning was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "I personally prefer Fine-tuning because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Fine-tuning was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Fine-tuning in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Fine-tuning compares to Best, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Fine-tuning was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_067",
+    "title": "Favorite coding music",
+    "summary": "Anyone tried using Favorite with open source LLMs?\nInteresting take \u2014 I use Favorite in prod daily.\nAnyone tried using Favorite with open source LLMs?\nHonestly, I think Favorite is overhyped.\nAnyone tried using Favorite with open source LLMs?",
+    "fact_check": [
+      {
+        "claim": "Anyone tried using Favorite with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Favorite in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Favorite with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Favorite is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Favorite with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_068",
+    "title": "Prompt engineering strategies",
+    "summary": "Not sure how Prompt compares to LangChain, thoughts?\nPrompt was great for us, especially with async support.\nHonestly, I think Prompt is overhyped.\nAnyone tried using Prompt with open source LLMs?\nI personally prefer Prompt because it's more flexible.",
+    "fact_check": [
+      {
+        "claim": "Not sure how Prompt compares to LangChain, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Prompt was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Prompt is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Prompt with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Prompt because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_069",
+    "title": "Best AI tools in 2025",
+    "summary": "Honestly, I think Best is overhyped.\nWe saw a 2x latency improvement using Best.\nAnyone tried using Best with open source LLMs?\nNot sure how Best compares to Switching, thoughts?\nAnyone tried using Best with open source LLMs?",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Best is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Best.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Best with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Best compares to Switching, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Best with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_070",
+    "title": "Remote ML engineering tips",
+    "summary": "Not sure how Remote compares to Python, thoughts?\nWe switched from Python to Remote and never looked back.\nInteresting take \u2014 I use Remote in prod daily.\nHonestly, I think Remote is overhyped.\nI personally prefer Remote because it's more flexible.",
+    "fact_check": [
+      {
+        "claim": "Not sure how Remote compares to Python, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Python to Remote and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Remote in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Remote is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Remote because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_071",
+    "title": "Favorite coding music",
+    "summary": "We saw a 2x latency improvement using Favorite.\nHonestly, I think Favorite is overhyped.\nInteresting take \u2014 I use Favorite in prod daily.\nHonestly, I think Favorite is overhyped.\nHonestly, I think Favorite is overhyped.",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using Favorite.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Favorite is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Favorite in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Favorite is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Favorite is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_072",
+    "title": "Fine-tuning vs adapters",
+    "summary": "Not sure how Fine-tuning compares to Favorite, thoughts?\nWe saw a 2x latency improvement using Fine-tuning.\nNot sure how Fine-tuning compares to Favorite, thoughts?\nFine-tuning was great for us, especially with async support.\nInteresting take \u2014 I use Fine-tuning in prod daily.",
+    "fact_check": [
+      {
+        "claim": "Not sure how Fine-tuning compares to Favorite, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Fine-tuning.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Fine-tuning compares to Favorite, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Fine-tuning was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Fine-tuning in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_073",
+    "title": "Python vs Rust for LLMs",
+    "summary": "Not sure how Python compares to Favorite, thoughts?\nAnyone tried using Python with open source LLMs?\nHonestly, I think Python is overhyped.\nInteresting take \u2014 I use Python in prod daily.\nPython was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "Not sure how Python compares to Favorite, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Python is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Python in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Python was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_074",
+    "title": "Prompt engineering strategies",
+    "summary": "Prompt was great for us, especially with async support.\nWe saw a 2x latency improvement using Prompt.\nNot sure how Prompt compares to Remote, thoughts?\nI personally prefer Prompt because it's more flexible.\nWe switched from Remote to Prompt and never looked back.",
+    "fact_check": [
+      {
+        "claim": "Prompt was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Prompt.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Prompt compares to Remote, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Prompt because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Remote to Prompt and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_075",
+    "title": "Best AI tools in 2025",
+    "summary": "Honestly, I think Best is overhyped.\nNot sure how Best compares to Prompt, thoughts?\nWe switched from Prompt to Best and never looked back.\nInteresting take \u2014 I use Best in prod daily.\nWe switched from Prompt to Best and never looked back.",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Best is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Best compares to Prompt, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Prompt to Best and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Best in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Prompt to Best and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_076",
+    "title": "Fine-tuning vs adapters",
+    "summary": "Honestly, I think Fine-tuning is overhyped.\nWe saw a 2x latency improvement using Fine-tuning.\nAnyone tried using Fine-tuning with open source LLMs?\nWe saw a 2x latency improvement using Fine-tuning.\nHonestly, I think Fine-tuning is overhyped.",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Fine-tuning is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Fine-tuning.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Fine-tuning with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Fine-tuning.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Fine-tuning is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_077",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "I personally prefer LangChain because it's more flexible.\nHonestly, I think LangChain is overhyped.\nInteresting take \u2014 I use LangChain in prod daily.\nI personally prefer LangChain because it's more flexible.\nWe saw a 2x latency improvement using LangChain.",
+    "fact_check": [
+      {
+        "claim": "I personally prefer LangChain because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think LangChain is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use LangChain in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer LangChain because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using LangChain.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_078",
+    "title": "Remote ML engineering tips",
+    "summary": "Anyone tried using Remote with open source LLMs?\nNot sure how Remote compares to Best, thoughts?\nWe saw a 2x latency improvement using Remote.\nAnyone tried using Remote with open source LLMs?\nRemote was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "Anyone tried using Remote with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Remote compares to Best, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Remote.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Remote with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Remote was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_079",
+    "title": "Remote ML engineering tips",
+    "summary": "We switched from Fine-tuning to Remote and never looked back.\nWe switched from Fine-tuning to Remote and never looked back.\nWe saw a 2x latency improvement using Remote.\nInteresting take \u2014 I use Remote in prod daily.\nWe saw a 2x latency improvement using Remote.",
+    "fact_check": [
+      {
+        "claim": "We switched from Fine-tuning to Remote and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Fine-tuning to Remote and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Remote.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Remote in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Remote.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_080",
+    "title": "Python vs Rust for LLMs",
+    "summary": "Interesting take \u2014 I use Python in prod daily.\nAnyone tried using Python with open source LLMs?\nWe saw a 2x latency improvement using Python.\nNot sure how Python compares to Prompt, thoughts?\nInteresting take \u2014 I use Python in prod daily.",
+    "fact_check": [
+      {
+        "claim": "Interesting take \u2014 I use Python in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Python.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Python compares to Prompt, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Python in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_081",
+    "title": "Switching from iPhone to Android",
+    "summary": "Honestly, I think Switching is overhyped.\nWe switched from Fine-tuning to Switching and never looked back.\nInteresting take \u2014 I use Switching in prod daily.\nSwitching was great for us, especially with async support.\nWe saw a 2x latency improvement using Switching.",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Switching is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Fine-tuning to Switching and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Switching in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Switching was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Switching.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_082",
+    "title": "Fine-tuning vs adapters",
+    "summary": "Interesting take \u2014 I use Fine-tuning in prod daily.\nWe switched from Best to Fine-tuning and never looked back.\nInteresting take \u2014 I use Fine-tuning in prod daily.\nInteresting take \u2014 I use Fine-tuning in prod daily.\nHonestly, I think Fine-tuning is overhyped.",
+    "fact_check": [
+      {
+        "claim": "Interesting take \u2014 I use Fine-tuning in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Best to Fine-tuning and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Fine-tuning in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Fine-tuning in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Fine-tuning is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_083",
+    "title": "Fine-tuning vs adapters",
+    "summary": "Anyone tried using Fine-tuning with open source LLMs?\nNot sure how Fine-tuning compares to Scaling, thoughts?\nWe switched from Scaling to Fine-tuning and never looked back.\nHonestly, I think Fine-tuning is overhyped.\nInteresting take \u2014 I use Fine-tuning in prod daily.",
+    "fact_check": [
+      {
+        "claim": "Anyone tried using Fine-tuning with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Fine-tuning compares to Scaling, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Scaling to Fine-tuning and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Fine-tuning is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Fine-tuning in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_084",
+    "title": "Scaling RAG pipelines",
+    "summary": "I personally prefer Scaling because it's more flexible.\nNot sure how Scaling compares to Fine-tuning, thoughts?\nAnyone tried using Scaling with open source LLMs?\nNot sure how Scaling compares to Fine-tuning, thoughts?\nScaling was great for us, especially with async support.",
+    "fact_check": [
+      {
+        "claim": "I personally prefer Scaling because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Scaling compares to Fine-tuning, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Scaling with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Scaling compares to Fine-tuning, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Scaling was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_085",
+    "title": "Switching from iPhone to Android",
+    "summary": "We saw a 2x latency improvement using Switching.\nInteresting take \u2014 I use Switching in prod daily.\nWe switched from Favorite to Switching and never looked back.\nNot sure how Switching compares to Favorite, thoughts?\nWe switched from Favorite to Switching and never looked back.",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using Switching.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Switching in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Favorite to Switching and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Switching compares to Favorite, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Favorite to Switching and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_086",
+    "title": "Python vs Rust for LLMs",
+    "summary": "Honestly, I think Python is overhyped.\nPython was great for us, especially with async support.\nHonestly, I think Python is overhyped.\nI personally prefer Python because it's more flexible.\nAnyone tried using Python with open source LLMs?",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Python is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Python was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Python is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Python because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Python with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_087",
+    "title": "Switching from iPhone to Android",
+    "summary": "Honestly, I think Switching is overhyped.\nWe switched from Python to Switching and never looked back.\nHonestly, I think Switching is overhyped.\nNot sure how Switching compares to Python, thoughts?\nHonestly, I think Switching is overhyped.",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Switching is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Python to Switching and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Switching is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Switching compares to Python, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Switching is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_088",
+    "title": "Best AI tools in 2025",
+    "summary": "Honestly, I think Best is overhyped.\nWe saw a 2x latency improvement using Best.\nAnyone tried using Best with open source LLMs?\nWe switched from Prompt to Best and never looked back.\nWe saw a 2x latency improvement using Best.",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Best is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Best.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Best with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Prompt to Best and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Best.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_089",
+    "title": "Switching from iPhone to Android",
+    "summary": "Anyone tried using Switching with open source LLMs?\nSwitching was great for us, especially with async support.\nI personally prefer Switching because it's more flexible.\nHonestly, I think Switching is overhyped.\nWe saw a 2x latency improvement using Switching.",
+    "fact_check": [
+      {
+        "claim": "Anyone tried using Switching with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Switching was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Switching because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Switching is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Switching.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_090",
+    "title": "Scaling RAG pipelines",
+    "summary": "We saw a 2x latency improvement using Scaling.\nInteresting take \u2014 I use Scaling in prod daily.\nI personally prefer Scaling because it's more flexible.\nScaling was great for us, especially with async support.\nWe saw a 2x latency improvement using Scaling.",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using Scaling.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Scaling because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Scaling was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Scaling.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_091",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "LangChain was great for us, especially with async support.\nNot sure how LangChain compares to Favorite, thoughts?\nLangChain was great for us, especially with async support.\nNot sure how LangChain compares to Favorite, thoughts?\nWe saw a 2x latency improvement using LangChain.",
+    "fact_check": [
+      {
+        "claim": "LangChain was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how LangChain compares to Favorite, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "LangChain was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how LangChain compares to Favorite, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using LangChain.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_092",
+    "title": "Scaling RAG pipelines",
+    "summary": "Honestly, I think Scaling is overhyped.\nNot sure how Scaling compares to Fine-tuning, thoughts?\nInteresting take \u2014 I use Scaling in prod daily.\nI personally prefer Scaling because it's more flexible.\nI personally prefer Scaling because it's more flexible.",
+    "fact_check": [
+      {
+        "claim": "Honestly, I think Scaling is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Scaling compares to Fine-tuning, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Scaling because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Scaling because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_093",
+    "title": "Switching from iPhone to Android",
+    "summary": "We saw a 2x latency improvement using Switching.\nAnyone tried using Switching with open source LLMs?\nNot sure how Switching compares to Scaling, thoughts?\nWe saw a 2x latency improvement using Switching.\nInteresting take \u2014 I use Switching in prod daily.",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using Switching.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Switching with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Switching compares to Scaling, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Switching.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Switching in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_094",
+    "title": "Scaling RAG pipelines",
+    "summary": "Scaling was great for us, especially with async support.\nWe switched from Prompt to Scaling and never looked back.\nHonestly, I think Scaling is overhyped.\nWe saw a 2x latency improvement using Scaling.\nHonestly, I think Scaling is overhyped.",
+    "fact_check": [
+      {
+        "claim": "Scaling was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Prompt to Scaling and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Scaling is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Scaling.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think Scaling is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_095",
+    "title": "LangChain vs LlamaIndex",
+    "summary": "Interesting take \u2014 I use LangChain in prod daily.\nHonestly, I think LangChain is overhyped.\nNot sure how LangChain compares to Switching, thoughts?\nHonestly, I think LangChain is overhyped.\nNot sure how LangChain compares to Switching, thoughts?",
+    "fact_check": [
+      {
+        "claim": "Interesting take \u2014 I use LangChain in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think LangChain is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how LangChain compares to Switching, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Honestly, I think LangChain is overhyped.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how LangChain compares to Switching, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_096",
+    "title": "Favorite coding music",
+    "summary": "We saw a 2x latency improvement using Favorite.\nWe switched from Scaling to Favorite and never looked back.\nNot sure how Favorite compares to Scaling, thoughts?\nFavorite was great for us, especially with async support.\nWe saw a 2x latency improvement using Favorite.",
+    "fact_check": [
+      {
+        "claim": "We saw a 2x latency improvement using Favorite.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Scaling to Favorite and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Favorite compares to Scaling, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Favorite was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Favorite.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_097",
+    "title": "Remote ML engineering tips",
+    "summary": "We switched from Best to Remote and never looked back.\nInteresting take \u2014 I use Remote in prod daily.\nInteresting take \u2014 I use Remote in prod daily.\nI personally prefer Remote because it's more flexible.\nWe switched from Best to Remote and never looked back.",
+    "fact_check": [
+      {
+        "claim": "We switched from Best to Remote and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Remote in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Remote in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Remote because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Best to Remote and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_098",
+    "title": "Favorite coding music",
+    "summary": "Anyone tried using Favorite with open source LLMs?\nAnyone tried using Favorite with open source LLMs?\nNot sure how Favorite compares to Scaling, thoughts?\nInteresting take \u2014 I use Favorite in prod daily.\nI personally prefer Favorite because it's more flexible.",
+    "fact_check": [
+      {
+        "claim": "Anyone tried using Favorite with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Anyone tried using Favorite with open source LLMs?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Favorite compares to Scaling, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Favorite in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "I personally prefer Favorite because it's more flexible.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_099",
+    "title": "Switching from iPhone to Android",
+    "summary": "We switched from Best to Switching and never looked back.\nWe saw a 2x latency improvement using Switching.\nSwitching was great for us, especially with async support.\nWe switched from Best to Switching and never looked back.\nWe switched from Best to Switching and never looked back.",
+    "fact_check": [
+      {
+        "claim": "We switched from Best to Switching and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Switching.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Switching was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Best to Switching and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We switched from Best to Switching and never looked back.",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  },
+  {
+    "thread_id": "thread_100",
+    "title": "Best AI tools in 2025",
+    "summary": "Best was great for us, especially with async support.\nNot sure how Best compares to Prompt, thoughts?\nInteresting take \u2014 I use Best in prod daily.\nWe saw a 2x latency improvement using Best.\nNot sure how Best compares to Prompt, thoughts?",
+    "fact_check": [
+      {
+        "claim": "Best was great for us, especially with async support.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Best compares to Prompt, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Interesting take \u2014 I use Best in prod daily.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "We saw a 2x latency improvement using Best.",
+        "judgment": "\u2705 Likely Correct"
+      },
+      {
+        "claim": "Not sure how Best compares to Prompt, thoughts?",
+        "judgment": "\u2705 Likely Correct"
+      }
+    ],
+    "evaluation": {
+      "relevance": {
+        "score": 4,
+        "reason": "Mocked: Covers most key ideas."
+      },
+      "factuality": {
+        "score": 5,
+        "reason": "Mocked: No contradiction found."
+      },
+      "coherence": {
+        "score": 4,
+        "reason": "Mocked: Bullet points well structured."
+      }
+    }
+  }
+]
