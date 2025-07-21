@@ -1,12 +1,15 @@
-from agents.base_agent import BaseAgent
 import yaml
+from agents.search_agent import SearchAgent
 
 with open("config/config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
-class DummyAgent(BaseAgent):
-    def run(self, input_text):
-        return f"{self.name} received input: {input_text}"
+# agent = SearchAgent("SearchAgent", config)
+# result = agent.run("What is the capital of France?")
+# print(result)
 
-agent = DummyAgent("TestAgent", config)
-print(agent.run("This is a test input"))
+query = "Python programming language"
+agent = SearchAgent("SearchAgent", config)
+result = agent.run(query)
+print(f"Query: {query}")
+print(result)
