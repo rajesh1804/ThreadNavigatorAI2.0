@@ -1,5 +1,5 @@
 import os
-import openai
+from openai import OpenAI
 from dotenv import load_dotenv
 from tenacity import retry, stop_after_attempt, wait_random_exponential, retry_if_exception_type
 
@@ -7,8 +7,10 @@ from tenacity import retry, stop_after_attempt, wait_random_exponential, retry_i
 load_dotenv()
 
 # Setup OpenRouter
-openai.api_key = os.getenv("OPENROUTER_API_KEY")
-openai.api_base = "https://openrouter.ai/api/v1"
+client = OpenAI(
+    api_key=os.getenv("OPENROUTER_API_KEY"),
+    base_url="https://openrouter.ai/api/v1"
+)
 
 @retry(
     stop=stop_after_attempt(3),
@@ -17,7 +19,7 @@ openai.api_base = "https://openrouter.ai/api/v1"
 )
 def chat_completion(messages, model="mistralai/mistral-7b-instruct:free", temperature=0.7, max_tokens=1024):
     try:
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model=model,
             messages=messages,
             temperature=temperature,
