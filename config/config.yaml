@@ -1,0 +1,14 @@
+llm:
+  provider: "openrouter"
+  model: "mistralai/mistral-7b-instruct:free"
+  temperature: 0.7
+  max_tokens: 1024
+
+agents:
+  searcher: true
+  summarizer: true
+  factchecker: true
+
+tools:
+  web_search: "duckduckgo"  # or "serper"
+  knowledge_base: "wikipedia"
