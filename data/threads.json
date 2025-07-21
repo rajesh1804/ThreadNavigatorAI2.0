@@ -1,0 +1,35 @@
+[
+  {
+    "thread_id": "thread_001",
+    "title": "Switched from Android to iPhone — my thoughts",
+    "posts": [
+      "OP: I recently switched from Android to iPhone and I’m loving the camera and battery life.",
+      "User1: Same here. iOS feels smoother, but I do miss some Android customizations.",
+      "User2: Try using Shortcuts and widgets — helps bridge the gap.",
+      "User3: Android still wins in flexibility, but iPhone nails hardware + ecosystem.",
+      "User4: Battery life on iPhone 13 is insane. Pixel drains like crazy."
+    ]
+  },
+  {
+    "thread_id": "thread_002",
+    "title": "LangChain vs Haystack for production RAG?",
+    "posts": [
+      "OP: Which one is more scalable: LangChain or Haystack?",
+      "User1: LangChain is flexible but can get messy with larger pipelines.",
+      "User2: Haystack has strong Elasticsearch and OpenSearch support.",
+      "User3: Depends on whether you're fine with code-first vs config-based workflows.",
+      "User4: In production, we preferred Haystack for its stability and fewer dependencies."
+    ]
+  },
+  {
+    "thread_id": "thread_003",
+    "title": "How do you stay productive as a remote ML engineer?",
+    "posts": [
+      "OP: Been working remotely for 2 years, burnout is creeping in. Tips?",
+      "User1: Set clear work hours and stick to them — no late night debugging.",
+      "User2: Weekly standups with teammates help maintain momentum.",
+      "User3: Don’t underestimate walking meetings and Pomodoro timers.",
+      "User4: Join online ML communities — breaks isolation and keeps you updated."
+    ]
+  }
+]
