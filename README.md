@@ -103,7 +103,7 @@ All agents are modular — swap-in / swap-out via `config.yaml`.
 ## 🖼️ UI Preview
 
 <p align="center">
-  <img src="https://github.com/rajesh1804/threadnavigatorai2.0/raw/main/assets/threadnavigator_demo.png" width="750"/>
+  <img src="https://github.com/rajesh1804/threadnavigatorai2.0/raw/main/assets/threadnavigatorai2.0-demo.gif" width="750"/>
 </p>
 
 **Tabbed layout includes:**
