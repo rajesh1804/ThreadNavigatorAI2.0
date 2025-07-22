@@ -379,7 +379,7 @@ with st.expander("## 🧭 How ThreadNavigatorAI Works ?", expanded=True):
     """)
 
     with col2:
-        st.image("assets/threadnavigator_flow.png", caption="🔁 Modular Multi-Agent Flow", use_column_width=True)
+        st.image("https://github.com/rajesh1804/threadnavigatorai2.0/raw/main/assets/threadnavigator_flow.png", caption="🔁 Modular Multi-Agent Flow", use_column_width=True)
 
     st.markdown("<div style='text-align:center; color:gray; font-size:small;'>🧠 Built for clarity, modularity, and agentic transparency.</div>", unsafe_allow_html=True)
 
