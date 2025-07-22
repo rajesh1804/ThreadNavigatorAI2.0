@@ -10,36 +10,48 @@
       "User4: Not sure how Favorite compares to Remote, thoughts?",
       "User5: Favorite was great for us, especially with async support."
     ],
-    "summary": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+    "summary": "- The tool/library \u201cFavorite\u201d is praised for its solid async support.  \n- Multiple users report running Favorite successfully in production.  \n- Community curiosity exists about pairing Favorite with open-source LLMs, but no concrete experience has been shared yet.  \n- A question was raised comparing Favorite to another tool called Remote\u2014no direct comparison surfaced in the thread.",
     "fact_check": [
       {
-        "claim": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
-        "judgment": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753142400000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
+        "claim": "- The tool/library \u201cFavorite\u201d is praised for its solid async support.  ",
+        "judgment": "\u274c Likely Incorrect\n\nThe claim refers to a tool/library named \"Favorite\" with solid async support, but the provided evidence does not mention any tool/library named \"Favorite.\" The term \"favorite\" appears only as an adjective in the Reddit post (referring to SolidJS) and in unrelated contexts in the other links. There is no evidence of a specific tool called \"Favorite\" being praised for async support. The confusion likely stems from misinterpreting the word \"favorite\" as a proper noun rather than an adjective."
+      },
+      {
+        "claim": "- Multiple users report running Favorite successfully in production.  ",
+        "judgment": "\ud83e\udd37 Unverifiable  \nThe claim states that \"multiple users report running Favorite successfully in production,\" but **none of the provided evidence mentions \"Favorite\"** or a tool/feature explicitly named as such. The links discuss Salesforce Data Loader, generic report/dashboard workflows, and Claris performance issues"
+      },
+      {
+        "claim": "- Community curiosity exists about pairing Favorite with open-source LLMs, but no concrete experience has been shared yet.  ",
+        "judgment": ""
+      },
+      {
+        "claim": "- A question was raised comparing Favorite to another tool called Remote\u2014no direct comparison surfaced in the thread.",
+        "judgment": "\u274c Likely Incorrect  \nThe evidence shows no mention of either \"Favorite\" or \"Remote\" tools in the provided search results. The Hacker News thread discusses remote-first tools in general, the Reddit thread is unrelated, and the Springer article focuses on virtual team challenges without naming specific tools. Since no direct comparison between the two tools appears in any cited source, the claim lacks supporting evidence."
       }
     ],
     "evaluation": {
       "relevance": {
-        "score": 0,
-        "reason": "Invalid JSON from LLM"
+        "score": 5,
+        "reason": "The summary accurately captures the main ideas of the thread, including the appreciation for Favorite's async support, its use in production, the community's curiosity about open-source LLMs, and the question comparing Favorite to Remote."
       },
       "factuality": {
-        "score": 0,
-        "reason": "Invalid JSON from LLM"
+        "score": 4,
+        "reason": "While the summary accurately reflects what was said in the thread, it does not provide concrete experiences with Favorite and open-source LLMs, which was a question posed by a community member."
       },
       "coherence": {
-        "score": 0,
-        "reason": "Invalid JSON from LLM"
+        "score": 4,
+        "reason": "The summary is well-structured and logically organized, but it could be improved by providing a more concise and clear introduction to the tool/library being discussed (Favorite), and by explicitly stating that no direct comparison of Favorite and Remote was made in the thread."
       }
     },
     "latency": {
-      "summarizer": 7.83,
-      "factchecker": 8.17,
-      "evaluator": 6.41
+      "summarizer": 13.49,
+      "factchecker": 52.9,
+      "evaluator": 4.13
     },
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": false,
     "source_url": "https://reddit.com/thread_001"
@@ -55,54 +67,50 @@
       "User4: We switched from Scaling to LangChain and never looked back.",
       "User5: Anyone tried using LangChain with open source LLMs?"
     ],
-    "summary": "Not sure how LangChain compares to Scaling, thoughts?\nI personally prefer LangChain because it's more flexible.\nInteresting take \u2014 I use LangChain in prod daily.\nAnyone tried using LangChain with open source LLMs?\nWe switched from Scaling to LangChain and never looked back.",
+    "summary": "- The thread primarily compares LangChain with LlamaIndex (referred to as \u201cScaling\u201d).  \n- Strong pro-LangChain sentiment: users highlight its flexibility and report successful production use.  \n- One team explicitly migrated from LlamaIndex to LangChain and \u201cnever looked back.\u201d  \n- There is repeated interest from different users about pairing LangChain with open-source LLMs, yet no concrete experiences are shared.",
     "fact_check": [
       {
-        "claim": "Not sure how LangChain compares to Scaling, thoughts?",
-        "judgment": "\u2705 Likely Correct"
+        "claim": "- The thread primarily compares LangChain with LlamaIndex (referred to as \u201cScaling\u201d).  ",
+        "judgment": "\u274c Likely Incorrect\n\nThe evidence shows only one of the three sources (ZenML Blog) directly compares LangChain and LlamaIndex, specifically contrasting **LangGraph** (a LangChain component) with LlamaIndex in the context of scaling workflows. The other two sources discuss LangChain vs. unrelated tools (CrewAI, general frameworks) or scaling challenges unrelated to LlamaIndex. The claim that the thread **\"primarily\"** compares LangChain with LlamaIndex (\"Scaling\") is overstated, as most cited discussions do not focus on this comparison."
       },
       {
-        "claim": "I personally prefer LangChain because it's more flexible.",
-        "judgment": "\u2705 Likely Correct"
+        "claim": "- Strong pro-LangChain sentiment: users highlight its flexibility and report successful production use.  ",
+        "judgment": "\ud83e\udd37 Unverifiable\n\n**Reasoning:**  \nThe provided search results do not contain explicit mentions of \"strong pro-LangChain sentiment\" or direct user testimonials about its flexibility or production success.  \n- The first article focuses on LLM evaluations but does not mention LangChain in the title or snippet.  \n- The Reddit post explicitly states it is missing the claimed \"strong sentiment\" about LangChain.  \n- The third link describes a LangChain tutorial but does not include verifiable user feedback.  \n\nWithout access to the full text of the articles or additional context, the claim cannot be confirmed or refuted definitively."
       },
       {
-        "claim": "Interesting take \u2014 I use LangChain in prod daily.",
-        "judgment": "\u2705 Likely Correct"
+        "claim": "- One team explicitly migrated from LlamaIndex to LangChain and \u201cnever looked back.\u201d  ",
+        "judgment": "\ud83e\udd37 Unverifiable  \nThe third search result mentions LangChain and LlamaIndex in a comment reply with \"never looked back,\" but the context is unclear. The transcript snippet lacks specific details about a team migration between these tools. While the phrasing superficially matches the claim, the evidence provided doesn\u2019t explicitly confirm the migration narrative or provide verifiable context. The other search results use similar phrasing (\"never looked back\") in unrelated scenarios, further muddying clarity."
       },
       {
-        "claim": "Anyone tried using LangChain with open source LLMs?",
-        "judgment": "\u2705 Likely Correct"
-      },
-      {
-        "claim": "We switched from Scaling to LangChain and never looked back.",
-        "judgment": "\u2705 Likely Correct"
+        "claim": "- There is repeated interest from different users about pairing LangChain with open-source LLMs, yet no concrete experiences are shared.",
+        "judgment": "\ud83e\udd37 Unverifiable  \nThe provided evidence does not directly confirm or refute the claim. While the first two links mention LangChain discussions (including an AMA and a critical take), the search results note missing keywords related to \"pairing\" or \"concrete experiences.\" The third link discusses LLM performance but is unrelated to LangChain integration. Without explicit evidence of repeated interest or lack thereof in pairing LangChain with open-source LLMs, the claim cannot be verified definitively based on the given sources. Further investigation (e.g., broader community discussions, GitHub repos, or documentation) would be needed."
       }
     ],
     "evaluation": {
       "relevance": {
-        "score": 4,
-        "reason": "Mocked: Covers most key ideas."
+        "score": 5,
+        "reason": "The summary accurately captures the main ideas of the thread, which is comparing LangChain with LlamaIndex and discussing user experiences with both."
       },
       "factuality": {
         "score": 5,
-        "reason": "Mocked: No contradiction found."
+        "reason": "The summary accurately reflects what was actually said in the thread, as it accurately quotes user opinions about LangChain and mentions the migration from LlamaIndex to LangChain."
       },
       "coherence": {
         "score": 4,
-        "reason": "Mocked: Bullet points well structured."
+        "reason": "While the summary is logically organized and easy to read, it could benefit from a more concise structure. For instance, the repeated mention of using LangChain with open-source LLMs could be consolidated into one sentence."
       }
     },
     "latency": {
-      "summarizer": 0.01,
-      "factchecker": 0.01,
-      "evaluator": 0.01
+      "summarizer": 16.65,
+      "factchecker": 54.09,
+      "evaluator": 3.35
     },
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
-    "is_mock": true,
+    "is_mock": false,
     "source_url": "https://reddit.com/thread_002"
   },
   {
@@ -116,54 +124,50 @@
       "User4: Honestly, I think Python is overhyped.",
       "User5: Python was great for us, especially with async support."
     ],
-    "summary": "I personally prefer Python because it's more flexible.\nAnyone tried using Python with open source LLMs?\nPython was great for us, especially with async support.\nWe saw a 2x latency improvement using Python.\nHonestly, I think Python is overhyped.",
+    "summary": "- Majority of participants found Python successful for running open-source LLMs, particularly praising built-in async support.  \n- One team measured a 2\u00d7 latency reduction after optimizing their Python LLM stack.  \n- OP and others highlight Python\u2019s flexibility and ease of integration as major advantages.  \n- A dissenting voice argues Python is overhyped, implying potential trade-offs or frustrations.",
     "fact_check": [
       {
-        "claim": "I personally prefer Python because it's more flexible.",
-        "judgment": "\u2705 Likely Correct"
+        "claim": "- Majority of participants found Python successful for running open-source LLMs, particularly praising built-in async support.  ",
+        "judgment": "\ud83e\udd37 Unverifiable\n\n**Explanation:**  \nThe evidence provided does not directly support the claim about participants praising Python's built-in async support for running open-source LLMs.  \n- The first result focuses on evaluating LLMs but does not mention async support.  \n- The second result discusses async support in **Django** (a web framework), not LLMs.  \n- The third result is a guide for running LLMs in"
       },
       {
-        "claim": "Anyone tried using Python with open source LLMs?",
-        "judgment": "\u2705 Likely Correct"
+        "claim": "- One team measured a 2\u00d7 latency reduction after optimizing their Python LLM stack.  ",
+        "judgment": "\ud83e\udd37 Unverifiable\n\nThe evidence mentions a 40% latency reduction (equivalent to ~1.67\u00d7 improvement, not 2\u00d7) in the first source and general optimization strategies in the others, but **no source explicitly confirms a 2\u00d7 latency reduction**. While the claim is plausible given the context of optimization efforts, the specific 2\u00d7 improvement isn't directly verified by the provided evidence. The discrepancy between \">40%\" and \"2\u00d7\" leaves the claim unconfirmed with the given sources."
       },
       {
-        "claim": "Python was great for us, especially with async support.",
-        "judgment": "\u2705 Likely Correct"
+        "claim": "- OP and others highlight Python\u2019s flexibility and ease of integration as major advantages.  ",
+        "judgment": "\u2705 Likely Correct\n\n**Explanation:**  \nThe third search result from Analytics Vidhya explicitly lists \"Integration and Compatibility\" as one of Python's advantages, supporting the claim about ease of integration. While \"flexibility\" is not directly mentioned in the snippet, the term \"Versatility and Flexibility\" appears in the same source, aligning with the claim. The first two sources do not explicitly contradict the claim but are noted as missing references to \"OP\" (original poster/author). Since the third source validates both key points indirectly (flexibility via \"versatility\" and explicit integration), the claim is substantiated."
       },
       {
-        "claim": "We saw a 2x latency improvement using Python.",
-        "judgment": "\u2705 Likely Correct"
-      },
-      {
-        "claim": "Honestly, I think Python is overhyped.",
-        "judgment": "\u2705 Likely Correct"
+        "claim": "- A dissenting voice argues Python is overhyped, implying potential trade-offs or frustrations.",
+        "judgment": "\u2705 Likely Correct  \n**Explanation:** The evidence shows multiple discussions (Reddit, Quora) questioning Python's hype and drawbacks, as well as documented frustrations (e.g., Guido van Rossum stepping down due to community disagreements). While the exact phrase \"dissenting voice\" isn\u2019t explicitly tied to the claim, these examples collectively support the idea of critical perspectives on Python\u2019s trade-offs."
       }
     ],
     "evaluation": {
       "relevance": {
-        "score": 4,
-        "reason": "Mocked: Covers most key ideas."
+        "score": 5,
+        "reason": "The summary accurately captures the main ideas of the thread, including the success of Python for running open-source LLMs, its built-in async support, latency improvement, and mixed opinions on its hype."
       },
       "factuality": {
         "score": 5,
-        "reason": "Mocked: No contradiction found."
+        "reason": "The summary accurately reflects what was actually said in the thread, as it accurately presents the opinions and experiences of the participants."
       },
       "coherence": {
-        "score": 4,
-        "reason": "Mocked: Bullet points well structured."
+        "score": 5,
+        "reason": "The summary is well-structured, readable, and logically organized. It presents the information in a clear and concise manner, making it easy to understand the main points of the thread."
       }
     },
     "latency": {
-      "summarizer": 0.01,
-      "factchecker": 0.01,
-      "evaluator": 0.01
+      "summarizer": 5.01,
+      "factchecker": 57.91,
+      "evaluator": 3.57
     },
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
-    "is_mock": true,
+    "is_mock": false,
     "source_url": "https://reddit.com/thread_003"
   },
   {
@@ -177,54 +181,38 @@
       "User4: We saw a 2x latency improvement using Python.",
       "User5: I personally prefer Python because it's more flexible."
     ],
-    "summary": "Interesting take \u2014 I use Python in prod daily.\nNot sure how Python compares to Scaling, thoughts?\nPython was great for us, especially with async support.\nNot sure how Python compares to Scaling, thoughts?\nWe saw a 2x latency improvement using Python.",
+    "summary": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753228800000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
     "fact_check": [
       {
-        "claim": "Interesting take \u2014 I use Python in prod daily.",
-        "judgment": "\u2705 Likely Correct"
-      },
-      {
-        "claim": "Not sure how Python compares to Scaling, thoughts?",
-        "judgment": "\u2705 Likely Correct"
-      },
-      {
-        "claim": "Python was great for us, especially with async support.",
-        "judgment": "\u2705 Likely Correct"
-      },
-      {
-        "claim": "Not sure how Python compares to Scaling, thoughts?",
-        "judgment": "\u2705 Likely Correct"
-      },
-      {
-        "claim": "We saw a 2x latency improvement using Python.",
-        "judgment": "\u2705 Likely Correct"
+        "claim": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753228800000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+        "judgment": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753228800000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
       }
     ],
     "evaluation": {
       "relevance": {
-        "score": 4,
-        "reason": "Mocked: Covers most key ideas."
+        "score": 0,
+        "reason": "Invalid JSON from LLM"
       },
       "factuality": {
-        "score": 5,
-        "reason": "Mocked: No contradiction found."
+        "score": 0,
+        "reason": "Invalid JSON from LLM"
       },
       "coherence": {
-        "score": 4,
-        "reason": "Mocked: Bullet points well structured."
+        "score": 0,
+        "reason": "Invalid JSON from LLM"
       }
     },
     "latency": {
-      "summarizer": 0.01,
-      "factchecker": 0.01,
-      "evaluator": 0.01
+      "summarizer": 8.13,
+      "factchecker": 8.62,
+      "evaluator": 6.72
     },
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
-    "is_mock": true,
+    "is_mock": false,
     "source_url": "https://reddit.com/thread_004"
   },
   {
@@ -238,54 +226,38 @@
       "User4: Interesting take \u2014 I use Scaling in prod daily.",
       "User5: We saw a 2x latency improvement using Scaling."
     ],
-    "summary": "Honestly, I think Scaling is overhyped.\nI personally prefer Scaling because it's more flexible.\nWe switched from Fine-tuning to Scaling and never looked back.\nHonestly, I think Scaling is overhyped.\nInteresting take \u2014 I use Scaling in prod daily.",
+    "summary": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753228800000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
     "fact_check": [
       {
-        "claim": "Honestly, I think Scaling is overhyped.",
-        "judgment": "\u2705 Likely Correct"
-      },
-      {
-        "claim": "I personally prefer Scaling because it's more flexible.",
-        "judgment": "\u2705 Likely Correct"
-      },
-      {
-        "claim": "We switched from Fine-tuning to Scaling and never looked back.",
-        "judgment": "\u2705 Likely Correct"
-      },
-      {
-        "claim": "Honestly, I think Scaling is overhyped.",
-        "judgment": "\u2705 Likely Correct"
-      },
-      {
-        "claim": "Interesting take \u2014 I use Scaling in prod daily.",
-        "judgment": "\u2705 Likely Correct"
+        "claim": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753228800000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}",
+        "judgment": "[LLM Error] Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1753228800000'}, 'provider_name': None}}, 'user_id': 'user_2zr3OfIqR79ncHpaf0FDTUAomOE'}"
       }
     ],
     "evaluation": {
       "relevance": {
-        "score": 4,
-        "reason": "Mocked: Covers most key ideas."
+        "score": 0,
+        "reason": "Invalid JSON from LLM"
       },
       "factuality": {
-        "score": 5,
-        "reason": "Mocked: No contradiction found."
+        "score": 0,
+        "reason": "Invalid JSON from LLM"
       },
       "coherence": {
-        "score": 4,
-        "reason": "Mocked: Bullet points well structured."
+        "score": 0,
+        "reason": "Invalid JSON from LLM"
       }
     },
     "latency": {
-      "summarizer": 0.01,
-      "factchecker": 0.01,
-      "evaluator": 0.01
+      "summarizer": 7.64,
+      "factchecker": 7.98,
+      "evaluator": 6.33
     },
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
-    "is_mock": true,
+    "is_mock": false,
     "source_url": "https://reddit.com/thread_005"
   },
   {
@@ -344,7 +316,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_006"
@@ -405,7 +377,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_007"
@@ -466,7 +438,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_008"
@@ -527,7 +499,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_009"
@@ -588,7 +560,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_010"
@@ -649,7 +621,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_011"
@@ -710,7 +682,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_012"
@@ -771,7 +743,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_013"
@@ -832,7 +804,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_014"
@@ -893,7 +865,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_015"
@@ -954,7 +926,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_016"
@@ -1015,7 +987,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_017"
@@ -1076,7 +1048,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_018"
@@ -1137,7 +1109,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_019"
@@ -1198,7 +1170,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_020"
@@ -1259,7 +1231,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_021"
@@ -1320,7 +1292,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_022"
@@ -1381,7 +1353,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_023"
@@ -1442,7 +1414,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_024"
@@ -1503,7 +1475,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_025"
@@ -1564,7 +1536,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_026"
@@ -1625,7 +1597,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_027"
@@ -1686,7 +1658,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_028"
@@ -1747,7 +1719,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_029"
@@ -1808,7 +1780,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_030"
@@ -1869,7 +1841,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_031"
@@ -1930,7 +1902,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_032"
@@ -1991,7 +1963,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_033"
@@ -2052,7 +2024,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_034"
@@ -2113,7 +2085,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_035"
@@ -2174,7 +2146,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_036"
@@ -2235,7 +2207,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_037"
@@ -2296,7 +2268,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_038"
@@ -2357,7 +2329,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_039"
@@ -2418,7 +2390,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_040"
@@ -2479,7 +2451,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_041"
@@ -2540,7 +2512,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_042"
@@ -2601,7 +2573,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_043"
@@ -2662,7 +2634,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_044"
@@ -2723,7 +2695,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_045"
@@ -2784,7 +2756,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_046"
@@ -2845,7 +2817,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_047"
@@ -2906,7 +2878,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_048"
@@ -2967,7 +2939,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_049"
@@ -3028,7 +3000,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_050"
@@ -3089,7 +3061,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_051"
@@ -3150,7 +3122,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_052"
@@ -3211,7 +3183,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_053"
@@ -3272,7 +3244,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_054"
@@ -3333,7 +3305,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_055"
@@ -3394,7 +3366,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_056"
@@ -3455,7 +3427,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_057"
@@ -3516,7 +3488,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_058"
@@ -3577,7 +3549,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_059"
@@ -3638,7 +3610,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_060"
@@ -3699,7 +3671,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_061"
@@ -3760,7 +3732,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_062"
@@ -3821,7 +3793,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_063"
@@ -3882,7 +3854,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_064"
@@ -3943,7 +3915,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_065"
@@ -4004,7 +3976,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_066"
@@ -4065,7 +4037,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_067"
@@ -4126,7 +4098,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_068"
@@ -4187,7 +4159,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_069"
@@ -4248,7 +4220,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_070"
@@ -4309,7 +4281,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_071"
@@ -4370,7 +4342,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_072"
@@ -4431,7 +4403,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_073"
@@ -4492,7 +4464,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_074"
@@ -4553,7 +4525,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_075"
@@ -4614,7 +4586,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_076"
@@ -4675,7 +4647,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_077"
@@ -4736,7 +4708,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_078"
@@ -4797,7 +4769,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_079"
@@ -4858,7 +4830,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_080"
@@ -4919,7 +4891,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_081"
@@ -4980,7 +4952,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_082"
@@ -5041,7 +5013,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_083"
@@ -5102,7 +5074,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_084"
@@ -5163,7 +5135,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_085"
@@ -5224,7 +5196,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_086"
@@ -5285,7 +5257,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_087"
@@ -5346,7 +5318,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_088"
@@ -5407,7 +5379,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_089"
@@ -5468,7 +5440,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_090"
@@ -5529,7 +5501,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_091"
@@ -5590,7 +5562,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_092"
@@ -5651,7 +5623,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_093"
@@ -5712,7 +5684,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_094"
@@ -5773,7 +5745,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_095"
@@ -5834,7 +5806,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_096"
@@ -5895,7 +5867,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_097"
@@ -5956,7 +5928,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_098"
@@ -6017,7 +5989,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_099"
@@ -6078,7 +6050,7 @@
     "models_used": {
       "summarizer": "moonshotai/kimi-k2:free",
       "factchecker": "deepseek/deepseek-r1:free",
-      "evaluator": "google/gemma-3-4b-it:free"
+      "evaluator": "mistralai/mistral-7b-instruct:free"
     },
     "is_mock": true,
     "source_url": "https://reddit.com/thread_100"

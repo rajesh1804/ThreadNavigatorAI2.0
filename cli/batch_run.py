@@ -23,7 +23,7 @@ for i, thread in enumerate(threads):
     title = thread["title"]
     thread_text = "\n".join(thread["posts"])
     latency = {}
-    is_mock = i >= 1
+    is_mock = i >= 5 # Real for first 5, simulate for next 95
     source_url = f"https://reddit.com/{thread_id}"
 
     # ✅ Model info extraction from config

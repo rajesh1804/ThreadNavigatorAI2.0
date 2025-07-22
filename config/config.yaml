@@ -18,7 +18,7 @@ agents:
     max_tokens: 512
 
   evaluator:
-    model: "google/gemma-3-4b-it:free"
+    model: "mistralai/mistral-7b-instruct:free"
     temperature: 0.5
     max_tokens: 768
 

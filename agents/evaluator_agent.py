@@ -1,6 +1,7 @@
 from agents.base_agent import BaseAgent
 from utils.llm_client import chat_completion
 import json
+from pprint import pprint
 
 class EvaluatorAgent(BaseAgent):
     def run(self, summary_text, thread_text):
@@ -24,7 +25,8 @@ class EvaluatorAgent(BaseAgent):
             "max_tokens": agent_config.get("max_tokens", self.config["llm"]["max_tokens"])
         }
         print(f"Evaluator Using model: {llm_config['model']} with temperature {llm_config['temperature']} and max tokens {llm_config['max_tokens']}")
-
+        print(f"Evaluator messages: {messages}")
+        print(f"Evaluator llm_config config: {llm_config}")
         response = chat_completion(
             messages=messages,
             model=llm_config["model"],
@@ -32,9 +34,12 @@ class EvaluatorAgent(BaseAgent):
             max_tokens=llm_config["max_tokens"]
         )
 
+        # pprint(f"Error parsing JSON response: {response}")
+
         try:
             parsed = json.loads(response)
         except json.JSONDecodeError:
+            pprint(f"Error parsing JSON response: {response}")
             parsed = {"relevance": {"score": 0, "reason": "Invalid JSON from LLM"},
                     "factuality": {"score": 0, "reason": "Invalid JSON from LLM"},
                     "coherence": {"score": 0, "reason": "Invalid JSON from LLM"}}
